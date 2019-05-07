@@ -49,7 +49,7 @@ class App extends React.PureComponent {
 
         // ------------- VARIABLES ------------- //
         this.scrollSensitivitySetting = 200; //Increase/decrease this number to change sensitivity to trackpad gestures (up = less sensitive; down = more sensitive)
-        this.slideDurationSetting = 800; //Amount of time for which slide is "locked"
+        this.slideDurationSetting = 400; //Amount of time for which slide is "locked"
 
         this.state = {
             jacks: ['f1','f2','f3','f4','f5','f6'],
